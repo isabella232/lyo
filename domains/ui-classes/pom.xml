@@ -3,17 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!-- Start of user code header
-    -->
-    <!-- TODO: Add additional header properties here to avoid them be overrriden upon future re-generation -->
     <parent>
         <groupId>org.eclipse.lyo</groupId>
         <artifactId>lyo-parent</artifactId>
         <version>4.1.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <!-- End of user code
-    -->
     <groupId>org.eclipse.lyo.domains</groupId>
     <artifactId>ui-classes</artifactId>
     <version>4.1.0-SNAPSHOT</version>
@@ -27,16 +22,6 @@
     </properties>
 
     <dependencies>
-        <!-- <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet.jsp.jstl</groupId>
-            <artifactId>javax.servlet.jsp.jstl-api</artifactId>
-            <scope>provided</scope>
-        </dependency> -->
         <dependency>
             <groupId>org.eclipse.lyo.oslc4j.core</groupId>
             <artifactId>oslc4j-core</artifactId>
@@ -46,14 +31,12 @@
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-core</artifactId>
         </dependency>
-        
+
         <dependency>
           <groupId>org.apache.commons</groupId>
-          <artifactId>commons-lang3</artifactId>  
+          <artifactId>commons-lang3</artifactId>
         </dependency>
     </dependencies>
-    <!-- Start of user code post_dependencies
-    -->
     <build>
       <plugins>
         <plugin>
@@ -65,7 +48,5 @@
           <artifactId>maven-javadoc-plugin</artifactId>
         </plugin>
       </plugins>
-    </build>    
-    <!-- End of user code
-    -->
+    </build>
 </project>
