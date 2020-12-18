@@ -4,6 +4,8 @@
 
 ### Added
 
+- [Domains] Add `org.eclipse.lyo.domains:ui-classes` module with POJOs needed by [lyo.oslc-ui](https://github.com/eclipse/lyo.oslc-ui).
+
 ### Changed
 
 - Update Apache Jena dependency to v3.17
@@ -17,7 +19,7 @@
 
 ## [4.0.0] - 2020-12-16
 
-See changelog summary under https://github.com/eclipse/lyo/releases/tag/v4.0.0 
+See changelog summary under https://github.com/eclipse/lyo/releases/tag/v4.0.0
 
 ### Added
 
