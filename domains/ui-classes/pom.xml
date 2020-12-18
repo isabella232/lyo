@@ -23,15 +23,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.eclipse.lyo.oslc4j.core</groupId>
-            <artifactId>oslc4j-core</artifactId>
+          <groupId>org.eclipse.lyo.oslc4j.core</groupId>
+          <artifactId>oslc4j-core</artifactId>
         </dependency>
-
         <dependency>
           <groupId>com.fasterxml.jackson.core</groupId>
           <artifactId>jackson-core</artifactId>
         </dependency>
-
         <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-lang3</artifactId>
