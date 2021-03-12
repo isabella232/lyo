@@ -4,6 +4,9 @@
 
 ### Added
 
+- Store adds interface support for closing the Store cleanly and releasing underlying connections. 
+- SparqlStoreImpl can now be set up with a custom query executor
+
 ### Changed
 
 - Update Apache Jena dependency to v3.17
